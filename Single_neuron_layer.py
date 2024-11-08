@@ -48,17 +48,6 @@ for inp1,weigh1,bias_n1 in zip(input_mat,weight_mat,bias):
     neuronL1.append(temp_Res+bias_n1)
 print(neuronL1)
 
-    
-    
-
-
-# In[31]:
-
-
-for i,j in zip(input_mat,weight_mat):
-    for k,l in zip(i,j):
-        print(k,l)
-
 
 # In[ ]:
 
